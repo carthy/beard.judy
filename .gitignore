@@ -6,7 +6,8 @@ Makefile
 config.*
 stamp-h1
 tool/jhton
-doc/man
+doc/man/*
+!doc/man/.keep
 libtool
 
 src/Judy1/Judy1ByCount.c
